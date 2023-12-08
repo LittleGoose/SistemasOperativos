@@ -1,0 +1,84 @@
+Configuration	SO_ProyectoFinal_v4
+STM32CubeMX 	6.9.1
+Date	12/07/2023
+MCU	STM32F413ZHTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+QUADSPI	Bank1 with Quad SPI Lines	QUADSPI_BK1_IO0	PD11
+QUADSPI	Bank1 with Quad SPI Lines	QUADSPI_BK1_IO1	PD12
+QUADSPI	Bank1 with Quad SPI Lines	QUADSPI_BK1_IO2	PE2
+QUADSPI	Bank1 with Quad SPI Lines	QUADSPI_BK1_IO3	PD13
+QUADSPI	Bank1 with Quad SPI Lines	QUADSPI_BK1_NCS	PB6
+QUADSPI	Bank1 with Quad SPI Lines	QUADSPI_CLK	PB1
+SPI1	Full-Duplex Master	SPI1_MISO	PB4
+SPI1	Full-Duplex Master	SPI1_MOSI	PB5
+SPI1	Full-Duplex Master	SPI1_SCK	PB3
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+1	PE2	QUADSPI_BK1_IO2	
+46	PB0	GPIO_Output	
+47	PB1	QUADSPI_CLK	
+80	PD11	QUADSPI_BK1_IO0	
+81	PD12	QUADSPI_BK1_IO1	
+82	PD13	QUADSPI_BK1_IO3	
+133	PB3	SPI1_SCK	
+134	PB4	SPI1_MISO	
+135	PB5	SPI1_MOSI	
+136	PB6	QUADSPI_BK1_NCS	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+QUADSPI	Bank1 with Quad SPI Lines	QUADSPI_BK1_IO0	PD11
+QUADSPI	Bank1 with Quad SPI Lines	QUADSPI_BK1_IO1	PD12
+QUADSPI	Bank1 with Quad SPI Lines	QUADSPI_BK1_IO2	PE2
+QUADSPI	Bank1 with Quad SPI Lines	QUADSPI_BK1_IO3	PD13
+QUADSPI	Bank1 with Quad SPI Lines	QUADSPI_BK1_NCS	PB6
+QUADSPI	Bank1 with Quad SPI Lines	QUADSPI_CLK	PB1
+SPI1	Full-Duplex Master	SPI1_MISO	PB4
+SPI1	Full-Duplex Master	SPI1_MOSI	PB5
+SPI1	Full-Duplex Master	SPI1_SCK	PB3
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+1	PE2	QUADSPI_BK1_IO2	
+46	PB0	GPIO_Output	
+47	PB1	QUADSPI_CLK	
+80	PD11	QUADSPI_BK1_IO0	
+81	PD12	QUADSPI_BK1_IO1	
+82	PD13	QUADSPI_BK1_IO3	
+133	PB3	SPI1_SCK	
+134	PB4	SPI1_MISO	
+135	PB5	SPI1_MOSI	
+136	PB6	QUADSPI_BK1_NCS	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : SO_ProyectoFinal_v4
+Project Folder : C:\Users\Gansito\Documents\STM32Projects\SO_ProyectoFinal_v4
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F4 V1.27.1
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
